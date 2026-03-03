@@ -1,0 +1,13 @@
+{
+    "name": "C++ Course Environment",
+    "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-22.04",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "spmeesseman.vscode-taskexplorer",
+                "danielpinto8zz6.c-cpp-compile-run"
+            ]
+        }
+    }
+}

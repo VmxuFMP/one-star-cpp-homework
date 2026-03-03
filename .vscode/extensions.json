@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools-extension-pack",
+        "spmeesseman.vscode-taskexplorer",
+        "danielpinto8zz6.c-cpp-compile-run"
+    ]
+}
