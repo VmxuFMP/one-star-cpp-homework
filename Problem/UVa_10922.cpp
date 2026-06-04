@@ -33,7 +33,7 @@ int main() {
 
 /*
 UVa 10922 題目
-
+ 
 A well-known trick to know if an integer N is a multiple of nine is to compute the sum S of its digits.
 If S is a multiple of nine, then so is N . This is a recursive test, and the depth of the recursion needed
 to obtain the answer on N is called the 9-degree of N .
