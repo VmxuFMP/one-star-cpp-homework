@@ -7,10 +7,10 @@ int main() {
 
 	while (scanf("%lld %lld", &Hashmat, &Enemy) == 2){
 		if (Hashmat > Enemy) {
-			printf("%lld", Hashmat - Enemy);
+			printf("%lld\n", Hashmat - Enemy);
 		}
-		if (Enemy > Hashmat) {
-			printf("%lld", Enemy - Hashmat);
+		else {
+			printf("%lld\n", Enemy - Hashmat);
 		}
 	}
 	return 0;
