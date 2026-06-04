@@ -32,7 +32,7 @@ int main() {
 				max_cycle_length = current_cycle_length;
 			}
 		}
-		printf("\n%d %d %d\n", original_i, original_j, max_cycle_length);
+		printf("%d %d %d\n", original_i, original_j, max_cycle_length);
 	}
 	return 0;
 }
