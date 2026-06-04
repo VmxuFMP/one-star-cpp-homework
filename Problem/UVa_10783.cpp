@@ -3,6 +3,9 @@
 using namespace std;
 
 int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	
 	int T;
 	cin >> T;
 
@@ -16,7 +19,7 @@ int main() {
 		int sum = 0;
 		if (a <= b) {
 			int oddcount = ((b - a) / 2) + 1;
-			int sum = ((a + b) * oddcount) / 2;
+			sum = ((a + b) * oddcount) / 2;
 		}
 
 		cout << "Case " << i << ": " << sum << "\n";
