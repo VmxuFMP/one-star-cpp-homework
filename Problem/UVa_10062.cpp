@@ -23,6 +23,8 @@ int main() {
 		if (!space) printf("\n"); // 第一組之後，每組前印空行
 		space = 0;
 
+		sample[strcspn(sample, "\r\n")] = '\0';
+		
 		Node data[256];
 		for (int i = 0; i < 256; i++) {
 			data[i].ascii = i;
@@ -31,7 +33,7 @@ int main() {
 
 		int len = strlen(sample);
 		for (int i = 0; i < len; i++) {
-			if (sample[i] > 32 && sample[i] < 128) { // 統計範圍內的 ASCII
+			if (sample[i] >= 32 && sample[i] < 128) { // 統計範圍內的 ASCII
 				data[(int)sample[i]].freq++;
 			}
 		}
