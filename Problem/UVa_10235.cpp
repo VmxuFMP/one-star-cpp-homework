@@ -9,7 +9,7 @@ bool is_prime(int n) {
 	if (n % 2 == 0) return false;
 
 	int sqrtN = sqrt(n);
-	for (int i = 3; i < sqrtN; i += 2) {
+	for (int i = 3; i <= sqrtN; i += 2) {
 		if (n % i == 0) {
 			return false;
 		}
